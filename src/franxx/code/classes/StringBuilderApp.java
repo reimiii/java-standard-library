@@ -6,7 +6,7 @@ public class StringBuilderApp {
         String name = "Hilmi";
         name = name + " " + "Akbar";
         name = name + " " + "Muharrom";
-        System.out.println(name+": boros memory");
+        System.out.println(name + ": boros memory");
         // walaupun outputnya Hilmi Akbar Muharrom, tidak di sarankan
         // Hilmi
         // Akbar
@@ -21,7 +21,7 @@ public class StringBuilderApp {
         builder.append("Muharrom");
 
         String names = builder.toString();
-        System.out.println(names+": irit memory");
+        System.out.println(names + ": irit memory");
 
     }
 }

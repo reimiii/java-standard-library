@@ -2,7 +2,7 @@ package franxx.code.classes;
 
 import java.util.StringTokenizer;
 
-public class StringTokenizr {
+public class StringTokenizerApp {
     public static void main(String[] args) {
         String name = "Hilmi-Akbar-#Muharrom";
         StringTokenizer tokenizer = new StringTokenizer(name, "-");
